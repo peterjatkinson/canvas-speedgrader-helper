@@ -26,7 +26,7 @@ Specifically:
 | `scripting` | To inject scripts into SpeedGrader that detect the current student and fill the comment editor |
 | `storage` | To keep your uploaded CSV data available while you grade |
 | `sidePanel` | To display the extension UI as a side panel alongside SpeedGrader |
-| Host access to `*.instructure.com` and `canvas.imperial.ac.uk` | Canvas LMS is hosted on these domains; the extension needs page access to read student info and fill comments |
+| Host access to `canvas.imperial.ac.uk` | Canvas LMS at Imperial College London is hosted on this domain; the extension needs page access to read student info and fill comments |
 
 ## Data retention
 
