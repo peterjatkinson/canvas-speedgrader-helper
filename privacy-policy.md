@@ -26,7 +26,7 @@ Specifically:
 | `scripting` | To inject scripts into SpeedGrader that detect the current student and fill the comment editor |
 | `storage` | To keep your uploaded CSV data available while you grade |
 | `sidePanel` | To display the extension UI as a side panel alongside SpeedGrader |
-| Host access to `*.instructure.com` and `*.imperial.ac.uk` | Canvas LMS is hosted on these domains; the extension needs page access to read student info and fill comments |
+| Host access to `*.instructure.com` and `canvas.imperial.ac.uk` | Canvas LMS is hosted on these domains; the extension needs page access to read student info and fill comments |
 
 ## Data retention
 
@@ -34,4 +34,4 @@ CSV data remains in local browser storage until you click "Clear" or uninstall t
 
 ## Contact
 
-If you have questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/YOUR_USERNAME/canvas-speedgrader-helper).
+If you have questions about this privacy policy, please open an issue on the [GitHub repository](https://github.com/peterjatkinson/canvas-speedgrader-helper).

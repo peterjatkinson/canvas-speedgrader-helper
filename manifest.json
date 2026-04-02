@@ -16,7 +16,7 @@
   ],
   "host_permissions": [
     "https://*.instructure.com/*",
-    "https://*.imperial.ac.uk/*"
+    "https://canvas.imperial.ac.uk/*"
   ],
   "action": {
     "default_icon": {
