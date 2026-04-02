@@ -1,0 +1,8 @@
+# Test files
+test_feedback*.csv
+
+# Old popup (no longer used)
+popup.html
+
+# macOS
+.DS_Store

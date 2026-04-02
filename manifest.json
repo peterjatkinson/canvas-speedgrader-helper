@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas SpeedGrader Helper",
+  "version": "1.0.0",
+  "description": "Paste feedback comments from a CSV file into Canvas SpeedGrader. Supports batch and one-at-a-time submission.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "sidePanel"
+  ],
+  "host_permissions": [
+    "https://*.instructure.com/*",
+    "https://*.imperial.ac.uk/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Open SpeedGrader Helper"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  }
+}
